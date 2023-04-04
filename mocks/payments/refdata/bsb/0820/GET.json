@@ -1,0 +1,863 @@
+{
+    "bsbs": [
+        {
+            "bsb": "082001",
+            "bsbLabel": "082-001",
+            "bank": "NAB",
+            "name": "NAB on George",
+            "location": "Ground Floor 333 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082003",
+            "bsbLabel": "082-003",
+            "bank": "NAB",
+            "name": "Broker Marketing",
+            "location": "Level 6 50 Miller St",
+            "city": "North Sydney",
+            "state": "NSW",
+            "postcode": "2060",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082004",
+            "bsbLabel": "082-004",
+            "bank": "NAB",
+            "name": "CT 2055 Capital Office Private Bnkg",
+            "location": "Lvl 24 MLC Ctr 19-21 Martin Place",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082005",
+            "bsbLabel": "082-005",
+            "bank": "NAB",
+            "name": "nabCorp NSW 2005",
+            "location": "Level 6 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082008",
+            "bsbLabel": "082-008",
+            "bank": "NAB",
+            "name": "PB Ops 5",
+            "location": "Lvl 1 B 1 Homebush Bay Drv",
+            "city": "Rhodes",
+            "state": "NSW",
+            "postcode": "2138",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082009",
+            "bsbLabel": "082-009",
+            "bank": "NAB",
+            "name": "Settlements NSW/ACT",
+            "location": "Lvl 5 C 1 Homebush Bay Drv",
+            "city": "Rhodes",
+            "state": "NSW",
+            "postcode": "2138",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082012",
+            "bsbLabel": "082-012",
+            "bank": "NAB",
+            "name": "DP Accounting State Ops NSW",
+            "location": "Level 2 300 Elizabeth St",
+            "city": "Surry Hills",
+            "state": "NSW",
+            "postcode": "2010",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082016",
+            "bsbLabel": "082-016",
+            "bank": "NAB",
+            "name": "CT 2024 Centennial Plaza",
+            "location": "Shp 10-33 Upp Gnd Lvl 686 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082017",
+            "bsbLabel": "082-017",
+            "bank": "NAB",
+            "name": "PB Ops 6",
+            "location": "Level 2 1 Homebush Bay Drive",
+            "city": "Rhodes",
+            "state": "NSW",
+            "postcode": "2138",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082021",
+            "bsbLabel": "082-021",
+            "bank": "NAB",
+            "name": "Broadway",
+            "location": "Tenancy 20C 1 Bay Street",
+            "city": "Ultimo",
+            "state": "NSW",
+            "postcode": "2007",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082022",
+            "bsbLabel": "082-022",
+            "bank": "NAB",
+            "name": "SB NSW Central West",
+            "location": "Level 7 153 Macquarie St",
+            "city": "Parramatta",
+            "state": "NSW",
+            "postcode": "2150",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082023",
+            "bsbLabel": "082-023",
+            "bank": "NAB",
+            "name": "SB NSW Metro Associates",
+            "location": "Level 7 153 Macquarie St",
+            "city": "Parramatta",
+            "state": "NSW",
+            "postcode": "2150",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082024",
+            "bsbLabel": "082-024",
+            "bank": "NAB",
+            "name": "World Square",
+            "location": "Shp 10-33 Upp Gnd Lvl 686 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082025",
+            "bsbLabel": "082-025",
+            "bank": "NAB",
+            "name": "CT 2001 City Tattersalls",
+            "location": "196 Pitt St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082027",
+            "bsbLabel": "082-027",
+            "bank": "NAB",
+            "name": "Private Kapiti Transactions",
+            "location": "Level 5 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082028",
+            "bsbLabel": "082-028",
+            "bank": "NAB",
+            "name": "Private NSW North Sydney BBC",
+            "location": "Level 1 105 Miller St",
+            "city": "North Sydney",
+            "state": "NSW",
+            "postcode": "2060",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082029",
+            "bsbLabel": "082-029",
+            "bank": "NAB",
+            "name": "NAB Corporate NSW 2029",
+            "location": "Level 6 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082031",
+            "bsbLabel": "082-031",
+            "bank": "NAB",
+            "name": "Hornsby BBC",
+            "location": "22-28 Edgeworth David Ave",
+            "city": "Hornsby",
+            "state": "NSW",
+            "postcode": "2077",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082033",
+            "bsbLabel": "082-033",
+            "bank": "NAB",
+            "name": "CT 2081 75 Elizabeth St BBC",
+            "location": "Mezzanine Level 75 Elizabeth St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082034",
+            "bsbLabel": "082-034",
+            "bank": "NAB",
+            "name": "Cassa Commerciale Aust Ltd ACT",
+            "location": "73 York St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082036",
+            "bsbLabel": "082-036",
+            "bank": "NAB",
+            "name": "IB-BSB2036-NSW",
+            "location": "Level 6 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082037",
+            "bsbLabel": "082-037",
+            "bank": "NAB",
+            "name": "AMS North",
+            "location": "Lvl 1 B 1 Homebush Bay Drv",
+            "city": "Rhodes",
+            "state": "NSW",
+            "postcode": "2138",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082038",
+            "bsbLabel": "082-038",
+            "bank": "NAB",
+            "name": "Capability & Cust Excellence",
+            "location": "Ground Floor 85-95 Marrickville Rd",
+            "city": "Marrickville",
+            "state": "NSW",
+            "postcode": "2204",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082039",
+            "bsbLabel": "082-039",
+            "bank": "NAB",
+            "name": "Trade BS NSW",
+            "location": "Lvl43ParramattaSquare153MacquarieSt",
+            "city": "Parramatta",
+            "state": "NSW",
+            "postcode": "2150",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082043",
+            "bsbLabel": "082-043",
+            "bank": "NAB",
+            "name": "CT1232 CRE Nrthern NSW Net Occ Cost",
+            "location": "Level 19 255 George Street",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082045",
+            "bsbLabel": "082-045",
+            "bank": "NAB",
+            "name": "Bendigo Bank Limited NSW",
+            "location": "Fountain Ct",
+            "city": "Bendigo",
+            "state": "VIC",
+            "postcode": "3550",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082047",
+            "bsbLabel": "082-047",
+            "bank": "NAB",
+            "name": "Cassa Commerciale Aust Ltd NSW",
+            "location": "73 York St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082048",
+            "bsbLabel": "082-048",
+            "bank": "NAB",
+            "name": "Potts Point",
+            "location": "57 Oxford St",
+            "city": "Surry Hills",
+            "state": "NSW",
+            "postcode": "2010",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082049",
+            "bsbLabel": "082-049",
+            "bank": "NAB",
+            "name": "Bendigo Bank Limited ACT",
+            "location": "Fountain Ct",
+            "city": "Bendigo",
+            "state": "VIC",
+            "postcode": "3550",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082050",
+            "bsbLabel": "082-050",
+            "bank": "NAB",
+            "name": "CT 2001 235 Clarence Street",
+            "location": "Ground Level 345 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082051",
+            "bsbLabel": "082-051",
+            "bank": "NAB",
+            "name": "SB NSW ACT Canberra",
+            "location": "Level 4 14 Childers St",
+            "city": "Canberra",
+            "state": "ACT",
+            "postcode": "2601",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082052",
+            "bsbLabel": "082-052",
+            "bank": "NAB",
+            "name": "134 Liverpool Street",
+            "location": "57 Oxford St",
+            "city": "Surry Hills",
+            "state": "NSW",
+            "postcode": "2010",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082053",
+            "bsbLabel": "082-053",
+            "bank": "NAB",
+            "name": "60 Martin Place",
+            "location": "60 Martin Place",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082055",
+            "bsbLabel": "082-055",
+            "bank": "NAB",
+            "name": "Private NSW Banking Suite",
+            "location": "Level 5 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082057",
+            "bsbLabel": "082-057",
+            "bank": "NAB",
+            "name": "255 George St NAB House",
+            "location": "333 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082058",
+            "bsbLabel": "082-058",
+            "bank": "NAB",
+            "name": "Sydney Capital Office BBC",
+            "location": "Level 3 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082059",
+            "bsbLabel": "082-059",
+            "bank": "NAB",
+            "name": "SB Sydney CBD South & Eastern",
+            "location": "Level 7 153 Macquarie St",
+            "city": "Parramatta",
+            "state": "NSW",
+            "postcode": "2150",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082061",
+            "bsbLabel": "082-061",
+            "bank": "NAB",
+            "name": "CT 2067 35 Pitt Street",
+            "location": "35 Pitt St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082062",
+            "bsbLabel": "082-062",
+            "bank": "NAB",
+            "name": "Broker-Assets NSW",
+            "location": "Level 12 105 Miller St",
+            "city": "North Sydney",
+            "state": "NSW",
+            "postcode": "2060",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082063",
+            "bsbLabel": "082-063",
+            "bank": "NAB",
+            "name": "MM-Sht Term Int Rate Risk-NSW",
+            "location": "Level 6 Sydney NSW 2000",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082064",
+            "bsbLabel": "082-064",
+            "bank": "NAB",
+            "name": "Forestway Kiosk",
+            "location": "Forestway Shopping Centre",
+            "city": "Frenchs Forest",
+            "state": "NSW",
+            "postcode": "2086",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082065",
+            "bsbLabel": "082-065",
+            "bank": "NAB",
+            "name": "CT 2058 255 George St BBC - BB3",
+            "location": "Level 18 255 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082066",
+            "bsbLabel": "082-066",
+            "bank": "NAB",
+            "name": "SB Sydney Greater West & Parramatta",
+            "location": "Level 7 153 Macquarie St",
+            "city": "Parramatta",
+            "state": "NSW",
+            "postcode": "2150",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082067",
+            "bsbLabel": "082-067",
+            "bank": "NAB",
+            "name": "Pitt & Hunter Streets",
+            "location": "60 Martin Place",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082068",
+            "bsbLabel": "082-068",
+            "bank": "NAB",
+            "name": "Invoice Finance NSW Rev 2068",
+            "location": "Level 3 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082071",
+            "bsbLabel": "082-071",
+            "bank": "NAB",
+            "name": "NAB Private Wealth Advisory NSW",
+            "location": "Level 5 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082074",
+            "bsbLabel": "082-074",
+            "bank": "NAB",
+            "name": "CT 2055 NAB Private Wealth NSW",
+            "location": "Level 19 255 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082075",
+            "bsbLabel": "082-075",
+            "bank": "NAB",
+            "name": "CT2627 255 George St Bus Ctr",
+            "location": "Level 18 255 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082077",
+            "bsbLabel": "082-077",
+            "bank": "NAB",
+            "name": "CT 2001 George Street FSC",
+            "location": "Level 17 255 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082078",
+            "bsbLabel": "082-078",
+            "bank": "NAB",
+            "name": "Private NSW Practice 5 BBC",
+            "location": "Level 5 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082079",
+            "bsbLabel": "082-079",
+            "bank": "NAB",
+            "name": "CT 2024 City South FSC",
+            "location": "Level 15 680 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082080",
+            "bsbLabel": "082-080",
+            "bank": "NAB",
+            "name": "Pitt & Bathurst Streets",
+            "location": "292 Pitt St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082081",
+            "bsbLabel": "082-081",
+            "bank": "NAB",
+            "name": "City South BBC",
+            "location": "Level 15 680 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082082",
+            "bsbLabel": "082-082",
+            "bank": "NAB",
+            "name": "TPC - Centennial Plaza",
+            "location": "Level 6 300 Elizabeth St",
+            "city": "Surry Hills",
+            "state": "NSW",
+            "postcode": "2010",
+            "paymentSystems": [
+                "paper",
+                "electronic"
+            ]
+        },
+        {
+            "bsb": "082083",
+            "bsbLabel": "082-083",
+            "bank": "NAB",
+            "name": "CT 2008 Business Secs Unit NSW/ACT",
+            "location": "197 Prospect Hwy",
+            "city": "Seven Hills",
+            "state": "NSW",
+            "postcode": "2147",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082088",
+            "bsbLabel": "082-088",
+            "bank": "NAB",
+            "name": "Oxford Square",
+            "location": "57 Oxford St",
+            "city": "Surry Hills",
+            "state": "NSW",
+            "postcode": "2010",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082092",
+            "bsbLabel": "082-092",
+            "bank": "NAB",
+            "name": "Private Direct Associates",
+            "location": "Level 5 2 Carrington St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        },
+        {
+            "bsb": "082096",
+            "bsbLabel": "082-096",
+            "bank": "NAB",
+            "name": "Continuous Imp & Portfolio Mgt",
+            "location": "Level 7 153 Macquarie St",
+            "city": "Parramatta",
+            "state": "NSW",
+            "postcode": "2150",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        }
+    ]
+}

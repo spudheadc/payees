@@ -1,0 +1,17 @@
+{
+    "data": {
+        "payee": {
+            "payeeId": "12345",
+            "nickname": "My Payee",
+            "description": "Some payee",
+            "type": "BILLER",
+            "creationDate": "asasd",
+            "payeeUType": "biller",
+            "biller": {
+                "billerCode": "0123456789",
+                "crn": "some reference number",
+                "billerName": "me"
+            }
+        }
+    }
+}

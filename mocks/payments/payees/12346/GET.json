@@ -1,0 +1,19 @@
+{
+    "data": {
+        "payee": {
+            "payeeId": "12345",
+            "nickname": "My Payee",
+            "description": "Some payee",
+            "type": "PAYID",
+            "creationDate": "asasd",
+            "payeeUType": "domestic",
+            "domestic": {
+                "payeeAccountUType": "payid",
+                "payId": {
+                    "identifier": "blah@blah.com",
+                    "type": "email"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "bsbs": [
+        {
+            "bsb": "082001",
+            "bsbLabel": "082-001",
+            "bank": "NAB",
+            "name": "NAB on George",
+            "location": "Ground Floor 333 George St",
+            "city": "Sydney",
+            "state": "NSW",
+            "postcode": "2000",
+            "paymentSystems": [
+                "paper",
+                "electronic",
+                "high value"
+            ]
+        }
+    ]
+}

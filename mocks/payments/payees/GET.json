@@ -1,0 +1,20 @@
+{
+    "data": {
+        "payees": [
+            {
+                "payeeId": "12345",
+                "nickname": "My Payee",
+                "description": "Some payee",
+                "type": "BILLER",
+                "creationDate": "asasd"
+            },
+            {
+                "payeeId": "12346",
+                "nickname": "My Second Payee",
+                "description": "Some payee",
+                "type": "PAYID",
+                "creationDate": "asasd"
+            }
+        ]
+    }
+}
