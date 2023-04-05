@@ -11,11 +11,6 @@ function Payeelist() {
     const appActor:InterpreterFrom<AnyStateMachine> = useContext(AppContext) as InterpreterFrom<AnyStateMachine>;
     const [state, send] = useActor(appActor);
 
-    useEffect(() => {
-        send('LOAD_PAYEES');
-        // eslint-disable-next-line
-    }, []);
-
     const removePayee = (payee: PayeeData) => {
         send({ type: 'DELETE_PAYEE', selected: payee });
     };

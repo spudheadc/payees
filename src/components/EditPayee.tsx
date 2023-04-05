@@ -33,18 +33,41 @@ function EditPayee({ editable = false }: ChildPropsType) {
         if (!payee)
             return <></>
 
+
+        let TypeElement: JSX.Element = <></>
         switch (payee.payeeUType) {
             case "biller":
-                return <BpayPayee biller={payee.biller} setBiller={(biller: Biller) => send({type: 'SELECTED',selected:{ ...payee, biller: { ...biller } }})} editable={state.context.editing} />
+                TypeElement = <BpayPayee biller={payee.biller} setBiller={(biller: Biller) => send({ type: 'SELECTED', selected: { ...payee, biller: { ...biller } } })} editable={state.context.editing} />
+                break;
             case "domestic":
                 switch (payee.domestic?.payeeAccountUType) {
                     case "payid":
-                        return <PayIdPayee payid={payee.domestic.payId} setPayId={(payId: DigitalWallet) => send({type: 'SELECTED',selected:{ ...payee, domestic: { payeeAccountUType: "payid", payId: { ...payId } } }})} editable={state.context.editing} />
+                        TypeElement = <PayIdPayee payid={payee.domestic.payId} setPayId={(payId: DigitalWallet) => send({ type: 'SELECTED', selected: { ...payee, domestic: { payeeAccountUType: "payid", payId: { ...payId } } } })} editable={state.context.editing} />
+                        break;
                     case "account":
-                        return <AccountPayee account={payee.domestic.account} setAccount={(account: Account) => send({type: 'SELECTED',selected:{ ...payee, domestic: { payeeAccountUType: "account", account: { ...account } } }})} editable={state.context.editing} />
+                        TypeElement = <AccountPayee account={payee.domestic.account} setAccount={(account: Account) => send({ type: 'SELECTED', selected: { ...payee, domestic: { payeeAccountUType: "account", account: { ...account } } } })} editable={state.context.editing} />
+                        break;
                 }
         }
-        return <></>
+        return <>
+            <label htmlFor="nickname" className="sr-only">
+                nickname
+            </label>
+            {state.context.editing ?
+                <input
+                    id="nickname"
+                    type="text"
+                    autoComplete="nickname"
+                    placeholder={state.context.selected.nickname}
+                    defaultValue={state.context.selected.nickname ? state.context.selected.nickname : ""}
+                    className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    onBlur={(evt: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+                        let obj: any = {};
+                        obj.nickname = evt.target.value;
+                        send({ type: 'SELECTED', selected: { ...payee, ...obj } });
+                    }} /> : <label className="w-full bg-white">{state.context.selected.nickname ? state.context.selected.nickname : ""}</label>}
+            {TypeElement}
+        </>
 
     }
 

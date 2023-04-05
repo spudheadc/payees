@@ -17,8 +17,8 @@ function AddPayee({ }) {
 
   const addPayee = async () => {
     send({
-        type: 'ADD_PAYEE',
-        selected: state.context.selected
+      type: 'ADD_PAYEE',
+      selected: state.context.selected
     });
   };
 
@@ -43,18 +43,40 @@ function AddPayee({ }) {
     if (!payee)
       return <></>
 
+    let TypeElement: JSX.Element = <></>
     switch (payee.payeeUType) {
       case "biller":
-        return <BpayPayee biller={payee.biller} setBiller={(biller: Biller) => send({type: 'SELECTED',selected:{ ...payee, biller: { ...biller } }})} editable={true} />
+        TypeElement = <BpayPayee biller={payee.biller} setBiller={(biller: Biller) => send({ type: 'SELECTED', selected: { ...payee, biller: { ...biller } } })} editable={true} />
+        break;
       case "domestic":
         switch (payee.domestic?.payeeAccountUType) {
           case "payid":
-            return <PayIdPayee payid={payee.domestic.payId} setPayId={(payId: DigitalWallet) => send({type: 'SELECTED',selected:{ ...payee, domestic: { payeeAccountUType: "payid", payId: { ...payId } } }})} editable={true} />
+            TypeElement = <PayIdPayee payid={payee.domestic.payId} setPayId={(payId: DigitalWallet) => send({ type: 'SELECTED', selected: { ...payee, domestic: { payeeAccountUType: "payid", payId: { ...payId } } } })} editable={true} />
+            break;
           case "account":
-            return <AccountPayee account={payee.domestic.account} setAccount={(account: Account) => send({type: 'SELECTED',selected:{ ...payee, domestic: { payeeAccountUType: "account", account: { ...account } } }})} editable={true} />
+            TypeElement = <AccountPayee account={payee.domestic.account} setAccount={(account: Account) => send({ type: 'SELECTED', selected: { ...payee, domestic: { payeeAccountUType: "account", account: { ...account } } } })} editable={true} />
+            break;
         }
     }
-    return <></>
+    return <>
+      <label htmlFor="nickname" className="sr-only">
+        nickname
+      </label>
+
+      <input
+        id="nickname"
+        type="text"
+        autoComplete="nickname"
+        placeholder={state.context.selected.nickname}
+        defaultValue={state.context.selected.nickname ? state.context.selected.nickname : ""}
+        className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+        onBlur={(evt: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+          let obj: any = {};
+          obj.nickname = evt.target.value;
+          send({ type: 'SELECTED', selected: { ...payee, ...obj } });
+        }} />
+      {TypeElement}
+    </>
 
   }
 
@@ -71,7 +93,7 @@ function AddPayee({ }) {
             <input type="hidden" name="remember" value="true" />
 
             <div>
-              <select id="type" value={getSelectType(state.context.selected)} onChange={(event: React.ChangeEvent<HTMLSelectElement>) => send({type: 'SELECTED',selected:convertToType(state.context.selected, event)})}>
+              <select id="type" value={getSelectType(state.context.selected)} onChange={(event: React.ChangeEvent<HTMLSelectElement>) => send({ type: 'SELECTED', selected: convertToType(state.context.selected, event) })}>
                 <option value="biller">BPAY</option>
                 <option value="account">BSB/Account</option>
                 <option value="payid">Pay Id</option>

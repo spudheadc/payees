@@ -1,12 +1,5 @@
 import { createContext } from 'react';
 import { AnyEventObject, assign, createMachine } from 'xstate';
-import { addPayeeMachine } from './addPayeeWorkflow';
-import { removePayeeMachine } from './removePayeeWorkflow';
-import { fetchOnePayeeMachine } from './fetchPayeeWorkflow'
-
-import fetchPayees from '../api/fetchPayees';
-import { PayeeData } from '../types/Payee';
-import { redirect } from 'react-router';
 import { BsbData } from '../types/Bsb';
 
 export const MachineContext = createContext<BSBContext>({
@@ -21,6 +14,7 @@ export interface BSBContext {
 
 
 export const bsbSearchMachine = createMachine<BSBContext>({
+    /** @xstate-layout N4IgpgJg5mDOIC5QEMAOqDEBlAogQQCUBhACQH0AhLCgbQAYBdRUVAe1gEsAXD1gO2YgAHogAsAJgA0IAJ6IAjADYAHADo6ygMzaduzfIC+B6WlSqANh1hcLrZBA58oGCPzCrHAN1YBrdzC4qWkZBNk4efkERBFEtVS1dRQB2DXk6AFZpOQQk0VUATkLCpPF0+XykpVEjE3QLKxtzOwcnDDAAJ3bWdtVUc2QuADNugFtVAKD6JiQQMO5eARno0VzVTNlEcVFNAvT9UqNjED5WCDhBU1D2ecilxABaRSyHwoKiwvE6RUV5FfEakCmDx8bhXcILKJiKQbBBpfJrBJ6XSGI5AyzWME3RagaLlOiqJLKeSlZ4Ie7EtZ0KlUipJTTieTpUQo2pmdGNZqOKCYiLY4SbTRqQnE9bZRl5ZR0fLKfLpRE6FmAurs1SwACuAGMNXB4DM5rzIQhFOJ4Sl9qKFCUCeJFOljekAWiGqpBsgOOZIDyIXcjSaCXRzaSbelVMl8iokg7DkA */
     id: 'app',
     initial: 'init',
     states: {
