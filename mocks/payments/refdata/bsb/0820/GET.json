@@ -9,11 +9,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082003",
@@ -24,11 +20,7 @@
             "city": "North Sydney",
             "state": "NSW",
             "postcode": "2060",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082004",
@@ -39,10 +31,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082005",
@@ -53,11 +42,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082008",
@@ -68,11 +53,7 @@
             "city": "Rhodes",
             "state": "NSW",
             "postcode": "2138",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082009",
@@ -83,11 +64,7 @@
             "city": "Rhodes",
             "state": "NSW",
             "postcode": "2138",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082012",
@@ -98,10 +75,7 @@
             "city": "Surry Hills",
             "state": "NSW",
             "postcode": "2010",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082016",
@@ -112,11 +86,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082017",
@@ -127,11 +97,7 @@
             "city": "Rhodes",
             "state": "NSW",
             "postcode": "2138",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082021",
@@ -142,11 +108,7 @@
             "city": "Ultimo",
             "state": "NSW",
             "postcode": "2007",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082022",
@@ -157,11 +119,7 @@
             "city": "Parramatta",
             "state": "NSW",
             "postcode": "2150",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082023",
@@ -172,11 +130,7 @@
             "city": "Parramatta",
             "state": "NSW",
             "postcode": "2150",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082024",
@@ -187,11 +141,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082025",
@@ -202,11 +152,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082027",
@@ -217,11 +163,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082028",
@@ -232,11 +174,7 @@
             "city": "North Sydney",
             "state": "NSW",
             "postcode": "2060",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082029",
@@ -247,11 +185,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082031",
@@ -262,11 +196,7 @@
             "city": "Hornsby",
             "state": "NSW",
             "postcode": "2077",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082033",
@@ -277,10 +207,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082034",
@@ -291,10 +218,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082036",
@@ -305,11 +229,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082037",
@@ -320,10 +240,7 @@
             "city": "Rhodes",
             "state": "NSW",
             "postcode": "2138",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082038",
@@ -334,11 +251,7 @@
             "city": "Marrickville",
             "state": "NSW",
             "postcode": "2204",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082039",
@@ -349,11 +262,7 @@
             "city": "Parramatta",
             "state": "NSW",
             "postcode": "2150",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082043",
@@ -364,10 +273,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082045",
@@ -378,10 +284,7 @@
             "city": "Bendigo",
             "state": "VIC",
             "postcode": "3550",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082047",
@@ -392,10 +295,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082048",
@@ -406,11 +306,7 @@
             "city": "Surry Hills",
             "state": "NSW",
             "postcode": "2010",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082049",
@@ -421,10 +317,7 @@
             "city": "Bendigo",
             "state": "VIC",
             "postcode": "3550",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082050",
@@ -435,11 +328,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082051",
@@ -450,11 +339,7 @@
             "city": "Canberra",
             "state": "ACT",
             "postcode": "2601",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082052",
@@ -465,11 +350,7 @@
             "city": "Surry Hills",
             "state": "NSW",
             "postcode": "2010",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082053",
@@ -480,11 +361,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082055",
@@ -495,11 +372,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082057",
@@ -510,11 +383,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082058",
@@ -525,11 +394,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082059",
@@ -540,11 +405,7 @@
             "city": "Parramatta",
             "state": "NSW",
             "postcode": "2150",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082061",
@@ -555,11 +416,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082062",
@@ -570,11 +427,7 @@
             "city": "North Sydney",
             "state": "NSW",
             "postcode": "2060",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082063",
@@ -585,11 +438,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082064",
@@ -600,11 +449,7 @@
             "city": "Frenchs Forest",
             "state": "NSW",
             "postcode": "2086",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082065",
@@ -615,10 +460,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082066",
@@ -629,11 +471,7 @@
             "city": "Parramatta",
             "state": "NSW",
             "postcode": "2150",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082067",
@@ -644,11 +482,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082068",
@@ -659,11 +493,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082071",
@@ -674,11 +504,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082074",
@@ -689,11 +515,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082075",
@@ -704,11 +526,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082077",
@@ -719,11 +537,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082078",
@@ -734,11 +548,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082079",
@@ -749,11 +559,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082080",
@@ -764,11 +570,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082081",
@@ -779,11 +581,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082082",
@@ -794,10 +592,7 @@
             "city": "Surry Hills",
             "state": "NSW",
             "postcode": "2010",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082083",
@@ -808,11 +603,7 @@
             "city": "Seven Hills",
             "state": "NSW",
             "postcode": "2147",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082088",
@@ -823,11 +614,7 @@
             "city": "Surry Hills",
             "state": "NSW",
             "postcode": "2010",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082092",
@@ -838,11 +625,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082096",
@@ -853,11 +636,7 @@
             "city": "Parramatta",
             "state": "NSW",
             "postcode": "2150",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         }
     ]
 }

@@ -1,10 +1,8 @@
-
-
-const fetchPayees = async () => {
+const fetchPayees = async (): Promise<Response> => {
     const res = await fetch(process.env.REACT_APP_BASE_URL + 'payees', {
-      method: 'GET'
+        method: 'GET',
     });
     return res;
-  };
-  
-  export default fetchPayees;
+};
+
+export default fetchPayees;

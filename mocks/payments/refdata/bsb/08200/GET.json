@@ -9,11 +9,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082003",
@@ -24,11 +20,7 @@
             "city": "North Sydney",
             "state": "NSW",
             "postcode": "2060",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082004",
@@ -39,10 +31,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic"
-            ]
+            "paymentSystems": ["paper", "electronic"]
         },
         {
             "bsb": "082005",
@@ -53,11 +42,7 @@
             "city": "Sydney",
             "state": "NSW",
             "postcode": "2000",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082008",
@@ -68,11 +53,7 @@
             "city": "Rhodes",
             "state": "NSW",
             "postcode": "2138",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         },
         {
             "bsb": "082009",
@@ -83,11 +64,7 @@
             "city": "Rhodes",
             "state": "NSW",
             "postcode": "2138",
-            "paymentSystems": [
-                "paper",
-                "electronic",
-                "high value"
-            ]
+            "paymentSystems": ["paper", "electronic", "high value"]
         }
     ]
 }
