@@ -1,12 +1,14 @@
 import { useActor } from '@xstate/react';
 import React, { useContext } from 'react';
-import { AnyStateMachine, InterpreterFrom } from 'xstate';
+import { AnyStateMachine, InterpreterFrom, createMachine } from 'xstate';
 import { AppContext } from '../App';
 import { Account, Biller, DigitalWallet, PayeeData } from '../types/Payee';
 import { convertToType } from '../utils/PayeeUtils';
 import AccountPayee from './payee-types/AccountPayee';
 import BpayPayee from './payee-types/BpayPayee';
 import PayIdPayee from './payee-types/PayIdPayee';
+
+// Invoked child machine
 
 // eslint-disable-next-line
 function AddPayee({}) {
@@ -15,7 +17,7 @@ function AddPayee({}) {
     ) as InterpreterFrom<AnyStateMachine>;
     const [state, send] = useActor(appActor);
 
-    const addPayee = async () => {
+    const addPayee = () => {
         send({
             type: 'ADD_PAYEE',
             selected: state.context.selected,
@@ -28,8 +30,8 @@ function AddPayee({}) {
                 return 'biller';
             case 'domestic':
                 switch (payee.domestic?.payeeAccountUType) {
-                    case 'payid':
-                        return 'payid';
+                    case 'payId':
+                        return 'payId';
                     case 'account':
                         return 'account';
                 }
@@ -62,17 +64,17 @@ function AddPayee({}) {
                 break;
             case 'domestic':
                 switch (payee.domestic?.payeeAccountUType) {
-                    case 'payid':
+                    case 'payId':
                         TypeElement = (
                             <PayIdPayee
-                                payid={payee.domestic.payId}
+                                payId={payee.domestic.payId}
                                 setPayId={(payId: DigitalWallet) =>
                                     send({
                                         type: 'SELECTED',
                                         selected: {
                                             ...payee,
                                             domestic: {
-                                                payeeAccountUType: 'payid',
+                                                payeeAccountUType: 'payId',
                                                 payId: { ...payId },
                                             },
                                         },
@@ -168,7 +170,7 @@ function AddPayee({}) {
                                 }>
                                 <option value="biller">BPAY</option>
                                 <option value="account">BSB/Account</option>
-                                <option value="payid">Pay Id</option>
+                                <option value="payId">Pay Id</option>
                             </select>
                         </div>
                         <PayeeType payee={state.context.selected} />

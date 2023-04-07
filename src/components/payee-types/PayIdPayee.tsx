@@ -1,19 +1,19 @@
 import { DigitalWallet } from '../../types/Payee';
 
-interface SetPayId {
+interface SetpayId {
     (source: DigitalWallet): void;
 }
 
 interface ChildPropsType {
-    setPayId: SetPayId;
-    payid?: DigitalWallet;
+    setPayId: SetpayId;
+    payId?: DigitalWallet;
     editable?: boolean;
 }
 
 // eslint-disable-next-line
-const PayIdPayee = ({
+const payIdPayee = ({
     setPayId,
-    payid = { identifier: '', type: '' },
+    payId = { identifier: '', type: '' },
     editable = false,
 }: ChildPropsType): JSX.Element => {
     const EditableField = ({
@@ -35,10 +35,10 @@ const PayIdPayee = ({
                         type={field}
                         autoComplete={field}
                         placeholder={
-                            payid ? payid[field as keyof DigitalWallet] : ''
+                            payId ? payId[field as keyof DigitalWallet] : ''
                         }
                         defaultValue={
-                            payid ? payid[field as keyof DigitalWallet] : ''
+                            payId ? payId[field as keyof DigitalWallet] : ''
                         }
                         className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         onBlur={(
@@ -49,12 +49,12 @@ const PayIdPayee = ({
                             const obj: any = {};
                             obj[field as keyof DigitalWallet] =
                                 evt.target.value;
-                            setPayId({ ...payid, ...obj });
+                            setPayId({ ...payId, ...obj });
                         }}
                     />
                 ) : (
                     <label className="w-full bg-white">
-                        {payid ? payid[field as keyof DigitalWallet] : ''}
+                        {payId ? payId[field as keyof DigitalWallet] : ''}
                     </label>
                 )}
             </div>
@@ -79,7 +79,7 @@ const PayIdPayee = ({
                 {editable ? (
                     <select
                         id={field}
-                        value={payid ? payid[field as keyof DigitalWallet] : ''}
+                        value={payId ? payId[field as keyof DigitalWallet] : ''}
                         onChange={(
                             evt: React.ChangeEvent<
                                 HTMLInputElement | HTMLSelectElement
@@ -88,13 +88,13 @@ const PayIdPayee = ({
                             const obj: any = {};
                             obj[field as keyof DigitalWallet] =
                                 evt.target.value;
-                            setPayId({ ...payid, ...obj });
+                            setPayId({ ...payId, ...obj });
                         }}>
                         {children}
                     </select>
                 ) : (
                     <label className="w-full bg-white">
-                        {payid ? payid[field as keyof DigitalWallet] : ''}
+                        {payId ? payId[field as keyof DigitalWallet] : ''}
                     </label>
                 )}
             </div>
@@ -112,4 +112,4 @@ const PayIdPayee = ({
     );
 };
 
-export default PayIdPayee;
+export default payIdPayee;

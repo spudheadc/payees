@@ -8,6 +8,8 @@ import fetchPayees from '../api/fetchPayees';
 import getPayee from '../api/getPayee';
 import { PayeeData, PayeesReturn } from '../types/Payee';
 import { initialisePayee } from '../utils/PayeeUtils';
+import { payeeValidationMachine } from './PayeeValidationMachine';
+import { choose, log, raise } from 'xstate/lib/actions';
 
 export const MachineContext = createContext<IContext>({
     payees: [],
@@ -107,11 +109,53 @@ export const appMachine = createMachine<IContext>(
                         ],
                         on: {
                             ADD_PAYEE: {
+                                target: 'validating',
+                            },
+                            SELECTED: {
+                                actions: 'assignSelected',
+                            },
+                        },
+                    },
+                    validating: {
+                        invoke: {
+                            id: 'payeeValidationMachine',
+                            src: payeeValidationMachine,
+                            data: {
+                                payee: (context: any, _event: any) =>
+                                    context.selected,
+                                errors: [],
+                            },
+                            onDone: {
+                                actions: choose([
+                                    {
+                                        cond: (_context, event) => {
+                                            console.log(
+                                                'Event ' +
+                                                    JSON.stringify(event),
+                                            );
+                                            return (
+                                                event.data.errors.length == 0
+                                            );
+                                        },
+                                        actions: raise('ADD_PAYMENT'),
+                                    },
+                                    {
+                                        actions: raise('VALIDATION_ERRORS'),
+                                    },
+                                ]),
+                            },
+                        },
+                        on: {
+                            ADD_PAYMENT: {
                                 target: 'adding',
+                            },
+                            VALIDATION_ERRORS: {
+                                target: 'addNew',
                             },
                         },
                     },
                     adding: {
+                        entry: log('Invoking add'),
                         invoke: {
                             id: 'addingPayee',
                             src: addingPayee,
@@ -187,6 +231,9 @@ export const appMachine = createMachine<IContext>(
                             CANCEL: {
                                 target: '#app.list.loading',
                                 actions: 'navigateToHome',
+                            },
+                            SELECTED: {
+                                actions: 'assignSelected',
                             },
                         },
                     },

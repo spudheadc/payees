@@ -53,17 +53,17 @@ function EditPayee() {
                 break;
             case 'domestic':
                 switch (payee.domestic?.payeeAccountUType) {
-                    case 'payid':
+                    case 'payId':
                         TypeElement = (
                             <PayIdPayee
-                                payid={payee.domestic.payId}
+                                payId={payee.domestic.payId}
                                 setPayId={(payId: DigitalWallet) =>
                                     send({
                                         type: 'SELECTED',
                                         selected: {
                                             ...payee,
                                             domestic: {
-                                                payeeAccountUType: 'payid',
+                                                payeeAccountUType: 'payId',
                                                 payId: { ...payId },
                                             },
                                         },

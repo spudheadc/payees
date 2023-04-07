@@ -35,8 +35,8 @@ export const convertToType = (
         case 'biller':
             initialiseBiller(payee);
             break;
-        case 'payid':
-            initialisePayId(payee);
+        case 'payId':
+            initialisepayId(payee);
             break;
         case 'account':
             initialiseAccount(payee);
@@ -57,12 +57,12 @@ export const convertToBsbAccount = (
     return { ...payee };
 };
 
-export const convertToPayId = (
+export const convertTopayId = (
     payee: PayeeData | undefined,
     event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
 ): PayeeData => {
     if (!payee) payee = initialisePayee();
-    const payId: DigitalWallet = initialisePayId(payee);
+    const payId: DigitalWallet = initialisepayId(payee);
     payId[event.target.id as keyof DigitalWallet] = event.target.value;
 
     return { ...payee };
@@ -77,13 +77,13 @@ function initialiseBiller(payee: PayeeData) {
     return payee.biller;
 }
 
-function initialisePayId(payee: PayeeData): DigitalWallet {
+function initialisepayId(payee: PayeeData): DigitalWallet {
     payee.type = 'domestic';
     payee.payeeUType = 'domestic';
     if (!payee.domestic) payee.domestic = { payeeAccountUType: '' };
     payee.biller = undefined;
     payee.international = undefined;
-    payee.domestic.payeeAccountUType = 'payid';
+    payee.domestic.payeeAccountUType = 'payId';
     payee.domestic.account = undefined;
     payee.domestic.card = undefined;
     if (!payee.domestic.payId)
